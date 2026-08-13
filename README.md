@@ -45,16 +45,37 @@ Nu borde du kunna öppna filen “Program.cs” till vänster och börja koda i 
 För att testköra ditt program klickar du på “Terminal” under skrivytan.
 I terminalen skriver du “dotnet run”
 Det kan ta några sekunder, sen körs programmet direkt i terminalen.
+För att avsluta ett program i förtid kan du trycka ctrl+c   (Mac: cmd+c)
 
 
 
-OBS!
+*** OBS! ***
 Här kan du ibland stöta på en bugg. Ditt workspace ska lita på källan men samtidigt kan vi få meddelande om att det inte stämmer.
 Om du inte får varningar när du stavar fel och inte får förslag på kommandon när du börjar skriva så kan du ha råkat ut för den buggen.
 
 Titta längst ner till höger så ser du en symbol { } Om den har ett kryss så är det fel.
 
 
-Lösning:	Håll ner ctrl + shift + p
+Lösning:	Håll ner ctrl + shift + p   (Mac: cmd + shift + p)
 Skriv: Developer: Reload Window. Välj det alternativet för att ladda om sidan.
 När sidan laddats om ska det fungera och det lilla krysset på { } ska vara borta.
+
+
+
+*** Spara ***
+På nätet sparas din kod automatiskt.
+Varje gång du ändrar något så kommer det noteras med en liten blå plupp på en
+ikon längst till vänster (Source control).
+Det betyder att det finns ändringar som inte lagrats på GitHub i molnet.
+
+För att ladda upp dina ändringar till GitHub så behöver du först bekräfta att allt ska skickas upp.
+
+1 Klicka på ikonen och för muspilen till texten “Changes” så får du upp några symboler.
+2 Klicka på + (Stage all changes)
+3 Skriv en anteckning i rutan för Message.
+4 Tryck sedan på “Commit”.
+5 Du får upp valet att synka ändringarna. Gör det!
+
+De två sista stegen kan göras i ett svep om man på gröna knappen istället klickar nedåtpilen och väljer Commit & Push
+
+Nu är allt sparat på GitHub som en ny Commit, vilket är detsamma som en ny version av ditt projekt.
